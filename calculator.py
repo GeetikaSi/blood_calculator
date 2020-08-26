@@ -5,7 +5,7 @@ def interface():
         print("Enter '1' to check HDL value")
         print("Enter '2' to check LDL value")
         print("Enter '9' to Quit")
-        choice = input("Enter your choice")
+        choice = input("Enter your choice ")
         if choice == '9':
             return
         elif choice == '1':
